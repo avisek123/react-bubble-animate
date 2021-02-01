@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  background-color: rebeccapurple;
+  position: relative;
+  touch-action: none;
+}
+
+.box {
+  transform: scale(0.6) rotate(45deg);
+}
+
+.box:nth-child(1) {
+  border-radius: 50%;
+  transform: scale(1);
+  cursor: move;
+}
